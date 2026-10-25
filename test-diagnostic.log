@@ -1,0 +1,299 @@
+Initialized native services in: C:\Users\kusio\.gradle\native
+Initialized jansi services in: C:\Users\kusio\.gradle\native
+The client will now receive all logging from the daemon (pid: 34608). The daemon log file: C:\Users\kusio\.gradle\daemon\9.3.1\daemon-34608.out.log
+Starting 6th build in daemon [uptime: 3 mins 16.238 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 12 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Now considering [C:\Users\kusio\Documents\ChatGPT\kuźnia] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\kusio\Documents\ChatGPT\kuźnia\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Users\kusio\Documents\ChatGPT\kuźnia\build.gradle.kts'.
+Included projects: [root project 'Kuznia', project ':app']
+
+> Configure project :
+Evaluating root project 'Kuznia' using build file 'C:\Users\kusio\Documents\ChatGPT\kuźnia\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.1.1', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.2.10', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose']
+WARNING: The option setting 'android.overridePathCheck=true' is experimental.
+The current default is 'false'.
+Build 30f3aeda-bbfe-4ff1-92f8-e8b43352f48b is started
+Using default execution profile
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+All projects evaluated.
+Task name matched 'testDebugUnitTest'
+Selected primary task 'testDebugUnitTest' from project :
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:generateDebugResources', task ':app:packageDebugResources', task ':app:processDebugNavigationResources', task ':app:parseDebugLocalResources', task ':app:generateDebugRFile', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:checkDebugAarMetadata', task ':app:mapDebugSourceSetPaths', task ':app:compileDebugNavigationResources', task ':app:mergeDebugResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:bundleDebugClassesToRuntimeJar', task ':app:bundleDebugClassesToCompileJar', task ':app:preDebugUnitTestBuild', task ':app:compileDebugUnitTestKotlin', task ':app:javaPreCompileDebugUnitTest', task ':app:compileDebugUnitTestJavaWithJavac', task ':app:processDebugJavaRes', task ':app:processDebugUnitTestJavaRes', task ':app:testDebugUnitTest']
+Tasks that were excluded: []
+Resolve mutations for :app:preBuild (Thread[#586,Execution worker,5,main]) started.
+:app:preBuild (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#586,Execution worker,5,main]) started.
+:app:preDebugBuild (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:generateDebugResources (Thread[#586,Execution worker,5,main]) started.
+:app:generateDebugResources (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#586,Execution worker,5,main]) started.
+:app:packageDebugResources (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:processDebugNavigationResources (Thread[#586,Execution worker,5,main]) started.
+:app:processDebugNavigationResources (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#586,Execution worker,5,main]) started.
+:app:parseDebugLocalResources (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:generateDebugRFile (Thread[#586,Execution worker,5,main]) started.
+:app:generateDebugRFile (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':app:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugRFile' as it is up-to-date.
+Resolve mutations for :app:compileDebugKotlin (Thread[#586,Execution worker,5,main]) started.
+:app:compileDebugKotlin (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:compileDebugKotlin UP-TO-DATE
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\main\kotlin', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\debug\java', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\debug\kotlin', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\debug\java', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\main\kotlin', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\debug\java', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\debug\kotlin', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\debug\java', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\main\kotlin', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\debug\java', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\debug\kotlin', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\debug\java', not found
+Custom actions are attached to task ':app:compileDebugKotlin'.
+Caching disabled for task ':app:compileDebugKotlin' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugKotlin' as it is up-to-date.
+Resolve mutations for :app:javaPreCompileDebug (Thread[#586,Execution worker,5,main]) started.
+:app:javaPreCompileDebug (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :app:compileDebugJavaWithJavac (Thread[#586,Execution worker,5,main]) started.
+:app:compileDebugJavaWithJavac (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+Skipping task ':app:compileDebugJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#586,Execution worker,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#586,Execution worker,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:compileDebugNavigationResources (Thread[#586,Execution worker,5,main]) started.
+:app:compileDebugNavigationResources (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:compileDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#586,Execution worker,5,main]) started.
+:app:mergeDebugResources (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#586,Execution worker,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#586,Execution worker,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#586,Execution worker,5,main]) started.
+:app:processDebugMainManifest (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#586,Execution worker,5,main]) started.
+:app:processDebugManifest (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#586,Execution worker,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[#586,Execution worker,5,main]) started.
+:app:processDebugResources (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:bundleDebugClassesToRuntimeJar (Thread[#586,Execution worker,5,main]) started.
+:app:bundleDebugClassesToRuntimeJar (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:bundleDebugClassesToRuntimeJar UP-TO-DATE
+Caching disabled for task ':app:bundleDebugClassesToRuntimeJar' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:bundleDebugClassesToRuntimeJar' as it is up-to-date.
+work action resolve classes.jar (project :app) (Thread[#586,Execution worker,5,main]) started.
+Resolve mutations for :app:bundleDebugClassesToCompileJar (Thread[#586,Execution worker,5,main]) started.
+:app:bundleDebugClassesToCompileJar (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+Caching disabled for task ':app:bundleDebugClassesToCompileJar' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:bundleDebugClassesToCompileJar' as it is up-to-date.
+work action resolve classes.jar (project :app) (Thread[#586,Execution worker,5,main]) started.
+Resolve mutations for :app:preDebugUnitTestBuild (Thread[#586,Execution worker,5,main]) started.
+:app:preDebugUnitTestBuild (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+Skipping task ':app:preDebugUnitTestBuild' as it has no actions.
+Resolve mutations for :app:compileDebugUnitTestKotlin (Thread[#586,Execution worker,5,main]) started.
+:app:compileDebugUnitTestKotlin (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:compileDebugUnitTestKotlin UP-TO-DATE
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\test\kotlin', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\testDebug\java', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\testDebug\java', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\test\kotlin', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\testDebug\java', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\testDebug\java', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\test\kotlin', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\testDebug\java', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\testDebug\java', not found
+Custom actions are attached to task ':app:compileDebugUnitTestKotlin'.
+Caching disabled for task ':app:compileDebugUnitTestKotlin' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugUnitTestKotlin' as it is up-to-date.
+Resolve mutations for :app:javaPreCompileDebugUnitTest (Thread[#586,Execution worker,5,main]) started.
+:app:javaPreCompileDebugUnitTest (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebugUnitTest' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebugUnitTest' as it is up-to-date.
+Resolve mutations for :app:compileDebugUnitTestJavaWithJavac (Thread[#586,Execution worker,5,main]) started.
+:app:compileDebugUnitTestJavaWithJavac (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+Skipping task ':app:compileDebugUnitTestJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :app:processDebugJavaRes (Thread[#586,Execution worker,5,main]) started.
+:app:processDebugJavaRes (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:processDebugJavaRes UP-TO-DATE
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\main\resources', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\debug\resources', not found
+Caching disabled for task ':app:processDebugJavaRes' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:processDebugJavaRes' as it is up-to-date.
+work action resolve out (project :app) (Thread[#586,Execution worker,5,main]) started.
+Resolve mutations for :app:processDebugUnitTestJavaRes (Thread[#586,Execution worker,5,main]) started.
+:app:processDebugUnitTestJavaRes (Thread[#586,Execution worker,5,main]) started.
+
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\test\resources', not found
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\testDebug\resources', not found
+Caching disabled for task ':app:processDebugUnitTestJavaRes' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:processDebugUnitTestJavaRes' as it is up-to-date.
+Resolve mutations for :app:testDebugUnitTest (Thread[#586,Execution worker,5,main]) started.
+:app:testDebugUnitTest (Thread[#586,Execution worker,5,main]) started.
+Gradle Test Executor 3 started executing tests.
+Gradle Test Executor 3 finished executing tests.
+
+> Task :app:testDebugUnitTest FAILED
+Caching disabled for task ':app:testDebugUnitTest' because:
+  Build cache is disabled
+Task ':app:testDebugUnitTest' is not up-to-date because:
+  Task has failed previously.
+file or directory 'C:\Users\kusio\Documents\ChatGPT\kuźnia\app\build\intermediates\javac\debugUnitTest\compileDebugUnitTestJavaWithJavac\classes', not found
+Starting process 'Gradle Test Executor 3'. Working directory: C:\Users\kusio\Documents\ChatGPT\kuźnia\app Command: C:\Program Files\Android\Android Studio\jbr\bin\java.exe -Djava.awt.headless=true -Djava.library.path=C:\Program Files\Android\Android Studio\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\kusio\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\kusio\.codex\tmp\arg0-windows\codex-arg08H0UUR;C:\Users\kusio\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\kusio\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\kusio\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\kusio\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\kusio\.local\bin;C:\Users\kusio\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\kusio\AppData\Local\Microsoft\WindowsApps;C:\Users\kusio\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kusio\AppData\Local\Python\bin;C:\Users\kusio\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\kusio\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\kusio\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\kusio\AppData\Local\OpenAI\Codex\bin\ce4759538b7f2f1a;C:\Users\kusio\AppData\Local\OpenAI\Codex\bin\896a0166b774037a;.;C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\testDebug\jniLibs;C:\Users\kusio\Documents\ChatGPT\kuźnia\app\src\test\jniLibs -Dorg.gradle.internal.worker.tmpdir=C:\Users\kusio\Documents\ChatGPT\kuźnia\app\build\tmp\testDebugUnitTest\work --add-opens=java.base/java.io=ALL-UNNAMED @C:\Users\kusio\.gradle\.tmp\gradle-worker-classpath15426370856529830044txt -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=PL -Duser.language=pl -Duser.variant -ea worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 3'
+Successfully started process 'Gradle Test Executor 3'
+Generating HTML test report...
+Finished generating test html results (0.004 secs) into: C:\Users\kusio\Documents\ChatGPT\kuźnia\app\build\reports\tests\testDebugUnitTest
+Finished generating test XML results (0.0 secs) into: C:\Users\kusio\Documents\ChatGPT\kuźnia\app\build\test-results\testDebugUnitTest
+Build 30f3aeda-bbfe-4ff1-92f8-e8b43352f48b is closed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:testDebugUnitTest'.
+> Test process encountered an unexpected problem.
+   > Could not execute test class 'pl.kuznia.app.TrainingTest'.
+
+* Try:
+> Check common problems https://docs.gradle.org/9.3.1/userguide/java_testing.html#sec:java_testing_troubleshooting.
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2s
+24 actionable tasks: 1 executed, 23 up-to-date
+Watched directory hierarchies: [C:\Users\kusio\Documents\ChatGPT\kuźnia]
